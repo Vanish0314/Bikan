@@ -1,0 +1,9 @@
+{
+    packages = {
+        [[C:\Users\Administrator\AppData\Local\.xmake\packages\v\vulkan-headers\1.3.290+0\3ceada88c0584ba8b6f5606522044689]],
+        [[C:\Users\Administrator\AppData\Local\.xmake\packages\v\vulkan-loader\1.3.290+0\1a387b0750644d1d85709bb8790774df]],
+        [[C:\Users\Administrator\AppData\Local\.xmake\packages\o\opengl\latest\3b9eaaf4c99a48849f550d3045309a0f]],
+        [[C:\Users\Administrator\AppData\Local\.xmake\packages\g\glfw\3.4\a03560ce548f4eca8ab682a4dbea04b2]],
+        [[C:\Users\Administrator\AppData\Local\.xmake\packages\g\glm\1.0.1\35167da92bb142f09a676f46ae259f75]]
+    }
+}

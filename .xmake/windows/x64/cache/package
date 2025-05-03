@@ -1,0 +1,66 @@
+{
+    ["vulkan-loader"] = {
+        links = "vulkan-1",
+        shared = true,
+        linkdirs = [[C:\Users\Administrator\AppData\Local\.xmake\packages\v\vulkan-loader\1.3.290+0\1a387b0750644d1d85709bb8790774df\lib]],
+        license = "Apache-2.0",
+        __requireconfs = {
+            system = false
+        },
+        __requirestr = "vulkan-loader",
+        static = true,
+        sysincludedirs = [[C:\Users\Administrator\AppData\Local\.xmake\packages\v\vulkan-headers\1.3.290+0\3ceada88c0584ba8b6f5606522044689\include]],
+        libfiles = {
+            [[C:\Users\Administrator\AppData\Local\.xmake\packages\v\vulkan-loader\1.3.290+0\1a387b0750644d1d85709bb8790774df\lib\vulkan-1.lib]],
+            [[C:\Users\Administrator\AppData\Local\.xmake\packages\v\vulkan-loader\1.3.290+0\1a387b0750644d1d85709bb8790774df\bin\vulkan-1.dll]]
+        },
+        version = "1.3.290+0",
+        envs = {
+            PATH = {
+                [[C:\Users\Administrator\AppData\Local\.xmake\packages\v\vulkan-loader\1.3.290+0\1a387b0750644d1d85709bb8790774df\bin]],
+                [[C:\Users\Administrator\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin]]
+            }
+        },
+        __enabled = true,
+        installdir = [[C:\Users\Administrator\AppData\Local\.xmake\packages\v\vulkan-loader\1.3.290+0\1a387b0750644d1d85709bb8790774df]]
+    },
+    glfw = {
+        static = true,
+        links = {
+            "glfw3",
+            "opengl32"
+        },
+        linkdirs = [[C:\Users\Administrator\AppData\Local\.xmake\packages\g\glfw\3.4\a03560ce548f4eca8ab682a4dbea04b2\lib]],
+        defines = "GLFW_INCLUDE_NONE",
+        license = "zlib",
+        syslinks = {
+            "user32",
+            "shell32",
+            "gdi32"
+        },
+        __requirestr = "glfw",
+        installdir = [[C:\Users\Administrator\AppData\Local\.xmake\packages\g\glfw\3.4\a03560ce548f4eca8ab682a4dbea04b2]],
+        sysincludedirs = [[C:\Users\Administrator\AppData\Local\.xmake\packages\g\glfw\3.4\a03560ce548f4eca8ab682a4dbea04b2\include]],
+        libfiles = [[C:\Users\Administrator\AppData\Local\.xmake\packages\g\glfw\3.4\a03560ce548f4eca8ab682a4dbea04b2\lib\glfw3.lib]],
+        version = "3.4",
+        envs = {
+            PATH = {
+                [[C:\Users\Administrator\AppData\Local\.xmake\packages\c\cmake\3.30.2\2b80cef30074424181b5e19a46ef30fc\bin]]
+            }
+        },
+        __enabled = true,
+        __requireconfs = {
+            configs = {
+                shared = false
+            }
+        }
+    },
+    glm = {
+        __requirestr = "glm",
+        installdir = [[C:\Users\Administrator\AppData\Local\.xmake\packages\g\glm\1.0.1\35167da92bb142f09a676f46ae259f75]],
+        sysincludedirs = [[C:\Users\Administrator\AppData\Local\.xmake\packages\g\glm\1.0.1\35167da92bb142f09a676f46ae259f75\include]],
+        version = "1.0.1",
+        __enabled = true,
+        license = "MIT"
+    }
+}
